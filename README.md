@@ -25,6 +25,8 @@ Hacktoberfest is an open source contribution program hosted by DigitalOcean in t
 - Add your file and create a pull request
 - Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
+Read `RULES.md` before creating a pull request
+
 ---
 
 <b>Contributions</b>
