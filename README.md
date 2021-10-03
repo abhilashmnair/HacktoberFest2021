@@ -31,6 +31,8 @@ Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/R
 - Add your file containing a useful code and create a pull request
 - Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
+**PRs violating the rules will be closed and reported *Spam*! :x:**
+
 ---
 
 <b>License</b>
