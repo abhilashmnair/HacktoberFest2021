@@ -1,4 +1,7 @@
-<b>Rules for PR</b>
+<b>Rules to check before opening a pull request</b>
+
+---
+
 - The file must have a valuable snippet of code which is useful.
 - Place the files in the respective programming language folders. If folder doesn't exist, create one.
 - Give a short descriptive commit title. Eg. `Updated File` :x:, `Added palindrome in Python` :heavy_check_mark:
