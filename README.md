@@ -1,5 +1,14 @@
 <h1 align="center">  Hacktober Fest 2021 </h1>
 <p align = "center"><b>:tada: Open source is changing the world – one contribution at a time! :tada:</b></p><br>
+<p align="center">
+  <a href="https://github.com/abhilashmnair/HacktoberFest2021/commits/main">
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/abhilashmnair/HacktoberFest2021">
+  </a>
+  <a href="https://github.com/abhilashmnair/HacktoberFest2021/issues">
+        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/abhilashmnair/HacktoberFest2021?color=red">
+  </a>
+  
+</p>
 <p align = "center">
   <img src = "https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" width="100%"/>
 </p>
@@ -27,7 +36,7 @@ Hacktoberfest is a month-long open source contribution program hosted by Digital
 <b>How to contribute?</b>
 
 Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
-- Clone the repository through the Github CLI or GitHub Desktop Client
+- Star (would mean a lot!) and clone the repository. You can use the Github CLI or GitHub Desktop Client to clone the repo.
 - Add your file containing a useful code and create a pull request
 - Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
