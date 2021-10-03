@@ -21,7 +21,6 @@ Hacktoberfest is a month-long open source contribution program hosted by Digital
 - This year the first 55,000 participants will be eligible for the prize.<br>
 
 ## <b>How to contribute?</b>
-
 Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
 - Star (would mean a lot!) and clone the repository. You can use the Github CLI or GitHub Desktop Client to clone the repo.
 - Add your file containing a useful code and create a pull request.
