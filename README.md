@@ -38,5 +38,5 @@ Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/R
 
 <b>License</b>
 
-This repository and the contained files are licensed under MIT License.
+This repository and the contained files are licensed under MIT License. See [LICENSE](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/LICENSE) for full text.
 
