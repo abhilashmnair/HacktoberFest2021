@@ -28,9 +28,10 @@ Hacktoberfest is a month-long open source contribution program hosted by Digital
 
 Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
 - Star (would mean a lot!) and clone the repository. You can use the Github CLI or GitHub Desktop Client to clone the repo.
-- Add your file containing a useful code and create a pull request
+- Add your file containing a useful code and create a pull request.
 - Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
+Not a developer or programmer? Don't worry! Add useful documentation and fix grammatical errors in the `README` file. Every single contribution of yours will benefit thousands.
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 
 ---
@@ -45,5 +46,7 @@ This repository and the contained files are licensed under MIT License. See [LIC
 <a href="https://github.com/abhilashmnair/hacktoberfest2021/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=abhilashmnair/hacktoberfest2021&max=20" />
 </a>
+
+---
 
 <p align = "center"><b>:purple_heart: Thank You for your participation! :purple_heart:</b></p>
