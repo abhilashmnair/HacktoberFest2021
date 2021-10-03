@@ -7,21 +7,20 @@
 This repository is made for beginners who are unfamiliar with open source and GitHub. So what is holding you back?! Make your first contribution to the open source and take home swags. :tshirt::package:
 <br>
 
-<b>What is Hacktober Fest?</b>
+## <b>What is Hacktober Fest?</b>
 
 Hacktoberfest is a month-long open source contribution program hosted by DigitalOcean in the month of October for supporting open source development. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Whether you are a pro in programming or a newbie, Hacktoberfest welcomes each one of the contributors for providing their valuable contribution to the open source community. Completing the challenge earns you a limited edition swags and other exiciting goodies.
 <br>
 
-<b>How to receive swags?</b>
+## <b>How to receive swags?</b>
 - Register yourself at the [Hacktober Fest Website](https://hacktoberfest.digitalocean.com/)
 - Create 4 pull-requests from repositories participating in the challenge (repositories having `hacktoberfest` topic)
 - Successfully merged PRs will be validated further for 14 days.
 - After that, the PR is accepted
 - Remember! All PRs must be done between October 1 to October 31 to be eligible for swags.
-- This year the first 55,000 participants will be eligible for the prize.
-<br>
+- This year the first 55,000 participants will be eligible for the prize.<br>
 
-<b>How to contribute?</b>
+## <b>How to contribute?</b>
 
 Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
 - Star (would mean a lot!) and clone the repository. You can use the Github CLI or GitHub Desktop Client to clone the repo.
@@ -33,16 +32,11 @@ Not a developer or programmer? Don't worry! Add useful documentation and fix gra
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 <br>
 
-<b>License</b>
+## <b>License</b>
 
 This repository and the contained files are licensed under MIT License. See [LICENSE](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/LICENSE) for full text.
 <br>
 
-<b>Contributors</b>
-
-<a href="https://github.com/abhilashmnair/hacktoberfest2021/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=abhilashmnair/hacktoberfest2021&max=20" />
-</a>
-<br>
+---
 
 <p align = "center"><b>:purple_heart: Thank You for your participation! :purple_heart:</b></p>
