@@ -10,29 +10,26 @@ This repository is made for beginners who are unfamiliar with open source and Gi
 
 <b>What is Hacktober Fest?</b>
 
-Hacktoberfest is an open source contribution program hosted by DigitalOcean in the month of October for supporting open source development. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Completing the challenge earns you a limited edition T-shirt. 
+Hacktoberfest is a month-long open source contribution program hosted by DigitalOcean in the month of October for supporting open source development. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Whether you are a pro in programming or a newbie, Hacktoberfest welcomes each one of the contributors for providing their valuable contribution to the open source community. Completing the challenge earns you a limited edition swags and other exiciting goodies. 
 
 ---
 
 <b>How to receive swags?</b>
-
+- Register yourself at the [Hacktober Fest Website](https://hacktoberfest.digitalocean.com/)
+- Create 4 pull-requests from repositories participating in the challenge (repositories having `hacktoberfest` topic)
+- Successfully merged PRs will be validated further for 14 days.
+- After that, the PR is accepted
+- Remember! All PRs must be done between October 1 to October 31 to be eligible for swags.
+- This year the first 55,000 participants will be eligible for the prize.
 
 ---
 
 <b>How to contribute?</b>
 
-- Clone the repository through the Github CLI or GitHub Desktop Client
-- Add your file and create a pull request
-- Wait for your pull-request to be verified by the maintainer and merged into the branch.
-
 Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
-
----
-
-<b>Contributions</b>
-
-- Add your name and organization in the [`CONTRIBUTING.MD`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/CONTRIBUTING.md) file.<br>
-*Format : [Your_name] (Your_Github_profile_URL) : Your_Organisation*
+- Clone the repository through the Github CLI or GitHub Desktop Client
+- Add your file containing a useful code and create a pull request
+- Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
 ---
 
@@ -40,3 +37,11 @@ Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/R
 
 This repository and the contained files are licensed under MIT License. See [LICENSE](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/LICENSE) for full text.
 
+---
+<b>Contributors</b>
+
+<a href="https://github.com/abhilashmnair/hacktoberfest2021/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhilashmnair/hacktoberfest2021&max=20" />
+</a>
+
+<p align = "center"><b>:purple_heart: Thank You for your participation! :purple_heart:</b></p>
