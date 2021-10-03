@@ -29,5 +29,5 @@ Hacktoberfest is an open source contribution program hosted by DigitalOcean in t
 
 <b>Contributions</b>
 
-- Add your name and organization in the `CONTRIBUTION.MD` file.<br>
-*Format : [Your_name](Your_Github_profile_URL) : Your_Organisation*
+- Add your name and organization in the `CONTRIBUTING.MD` file.<br>
+*Format : [Your_name] (Your_Github_profile_URL) : Your_Organisation*
