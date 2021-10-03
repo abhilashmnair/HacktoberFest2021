@@ -25,11 +25,18 @@ Hacktoberfest is an open source contribution program hosted by DigitalOcean in t
 - Add your file and create a pull request
 - Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
-Read `RULES.md` before creating a pull request
+Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
 
 ---
 
 <b>Contributions</b>
 
-- Add your name and organization in the `CONTRIBUTING.MD` file.<br>
+- Add your name and organization in the [`CONTRIBUTING.MD`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/CONTRIBUTING.md) file.<br>
 *Format : [Your_name] (Your_Github_profile_URL) : Your_Organisation*
+
+---
+
+<b>License</b>
+
+This repository and the contained files are licensed under MIT License.
+
