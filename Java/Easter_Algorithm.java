@@ -13,7 +13,9 @@ public class Easter_Algorithm
 
 	public static void GetEaster(int y)
 	{
-			//Cursed math
+		if (y > 1583)
+		{
+			//Math
 			int a = y % 19; 
 			int b = y / 100; 
 			int c = y % 100; 
@@ -31,5 +33,10 @@ public class Easter_Algorithm
 			
 			//Print date
 			System.out.println("Easter in " + y + " falls on " + n + "/" + (p + 1) + ".");
+		}
+		else
+		{
+			System.out.println("Please enter a date after 1583 for accurate results.");
+		}
 	}
 }
