@@ -15,7 +15,7 @@ def binary(a,x):
         mid = (first+last)//2
         
         if (x == a[mid]):
-            print("Found at position %d " %(mid))         
+            print("After sorting the array the element is found at position %d " %(mid))         
             return -1           
         elif(x<a[mid]):
             last = mid-1;
