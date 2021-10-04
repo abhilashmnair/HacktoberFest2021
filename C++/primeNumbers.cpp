@@ -1,24 +1,38 @@
-// C++ program to print prime numbers from 1 to 100
 #include <iostream>
 #include<cmath>
 using namespace std;
 
 int main()
-{   cout << "Prime Numbers between 1 and 100 are:\n";
+{   
+	int i,j,n,ctr;
 
-    for(int i=2;i<=100;++i) {           //loop to check for each number in the range
+	cout<<"Enter Last Number : ";
+	cin>>n;
+	
+	cout <<"\nPrime Numbers between 1 and "<<n<<" are:\n\n";
+
+    for(i=2;i<=n; i++) 
+	{           
         
-        int ctr=0;                      //to maintain factor count
+        ctr=0;                      
         
-        for(int j=2;j<=sqrt(i);++j) {   //checking for factors
+        for(j=2;j<i; j++)    
+		{                    
             
-            if(i%j==0)
-            ctr=1;                      //increasing factor count when found
+            if(i%j == 0)
+			{
+				ctr++;              
+				break;
+			}
+                              
         }
 
-        if(ctr==0)                      //checking and printing prime numbers
-            cout<<i<<" ";
-    }
+        if(ctr==0)  
+		{
+		    cout<<i<<" ";        
+    	}
+    	
+	}
 
     return 0;
 
