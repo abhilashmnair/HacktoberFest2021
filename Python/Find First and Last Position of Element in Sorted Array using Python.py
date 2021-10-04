@@ -1,7 +1,7 @@
 # Finding the start and the end of a string
-str1 = "Yush"
-print(str1.startswith("Yu"))
+str1 = "Yush Chaudhary"
+print(str1.startswith("Yush"))
 
 #Finding the End
-str1 = "Yush"
-print(str1.endswith("sh"))
+str1 = "Yush Chaudhary"
+print(str1.endswith("Chaudhary"))
