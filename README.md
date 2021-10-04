@@ -26,7 +26,7 @@ Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/R
 - Add your file containing a useful code and create a pull request.
 - Wait for your pull-request to be verified by the maintainer and merged into the branch.
 
-Not a developer or programmer? Don't worry! Add useful documentation and fix grammatical errors in the `README` file. Every single contribution of yours will benefit thousands.<br>
+Not a developer or programmer? Don't worry! Add useful documentation and fix grammatical errors in the `README` file. Every single contribution of yours will benefit your open source venture.<br>
 
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 <br>
