@@ -1,99 +1,199 @@
+import java.io.*;
+public class DoublyLinkedList
+{
+    static Node first,last;
+    public static void main(String[] args)throws IOException
+    {
+        int option,element,index;
+        String choise = "y";
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        while(choise.equals("y"))
+        {
+            System.out.println();
+            System.out.println("MENU");
+            System.out.println("1. Create list");
+            System.out.println("2. Display list");
+            System.out.println("3. Add at beginning");
+            System.out.println("4. Remove from beginning");
+            System.out.println("5. Add at end");
+            System.out.println("6. Remove from end");
+            System.out.println("7. Add at an index");
+            System.out.println("8. Remove from an index");
+            System.out.println("9. Reverse");
+            System.out.println("ENTER OPTION");
+            option = Integer.parseInt(br.readLine());
+            switch(option)
+            {
+                case 1:
+                    System.out.println("Enter element");
+                    element = Integer.parseInt(br.readLine());
+                    create(element);
+                    break;
 
-// A complete working Java program to demonstrate  
-// Doubly Linked List 
+                case 2:
+                    display();
+                    break;
 
-public class DoublyLinkedList { 
-    Node head; // head of list 
+                case 3:
+                    System.out.println("Enter element");
+                    element = Integer.parseInt(br.readLine());
+                    addBeginning(element);
+                    break;
 
-    /* Doubly Linked list Node*/
-    class Node { 
-        int data; 
-        Node prev; 
-        Node next; 
+                case 4:
+                    removeBeginning();
+                    break;
 
-        // Constructor to create a new node 
-        // next and prev is by default initialized as null 
-        Node(int d) { data = d; } 
-    } 
- 
-    // Add a node at the end of the list 
-    void append(int new_data) 
-    { 
-        /* 1. allocate node 
-           2. put in the data */
-        Node new_node = new Node(new_data); 
+                case 5:
+                    System.out.println("Enter element");
+                    element = Integer.parseInt(br.readLine());
+                    addEnd(element);
+                    break; 
 
-        Node last = head; /* used in step 5 */
+                case 6:
+                    removeEnd();
+                    break;
 
-        /* 3. This new node is going to be the last node, so 
-              make next of it as NULL */
-        new_node.next = null; 
+                case 7:
+                    System.out.println("Enter element");
+                    element = Integer.parseInt(br.readLine());
+                    System.out.println("Enter index");
+                    index = Integer.parseInt(br.readLine());
+                    addIndex(element,index);
+                    break;
 
-        /* 4. If the Linked List is empty, then make the new 
-              node as head */
-        if (head == null) { 
-            new_node.prev = null; 
-            head = new_node; 
-            return; 
-        } 
+                case 8:
+                    System.out.println("Enter index");
+                    index = Integer.parseInt(br.readLine());
+                    removeIndex(index);
+                    break;
 
-        /* 5. Else traverse till the last node */
-        while (last.next != null) 
-            last = last.next; 
+                case 9:
+                    reverse();
+                    break;
 
-        /* 6. Change the next of last node */
-        last.next = new_node; 
+                default:
+                    System.out.println("Invalid option");
+            }
+            System.out.println();
+            System.out.println("Continue ? (y/n)");
+            choise = br.readLine();
+        }
+    }
 
-        /* 7. Make last node as previous of new node */
-        new_node.prev = last; 
-    } 
+    public static void create(int n)
+    {
+        first = new Node();
+        last = new Node();
+        first.item = n;
+        last = first;
+        System.out.println("List created");
+    }
 
-    // This function prints contents of linked list
-    //  starting from the given node 
-    public void printlist(Node node) 
-    { 
-        Node last = null; 
+    public static void display()
+    {
+        System.out.println("The list is:");
+        for (Node x = first; x != null; x = x.next)
+            System.out.print(x.item + " ");
+        System.out.println();
+    }
 
-        // Traverse the linked list in forward direction
-        // using the next node's pointer present 
-        // at each node
-        System.out.println("Traversal in forward Direction"); 
-        while (node != null) { 
-            System.out.print(node.data + " "); 
-            last = node; 
-            node = node.next; 
-        } 
-        System.out.println(); 
-        
-        // Traverse the linked list in reverse direction 
-        // starting from the last node using the previous
-        // node's pointer present at each node
-        System.out.println("Traversal in reverse direction"); 
-        while (last != null) { 
-            System.out.print(last.data + " "); 
-            last = last.prev; 
-        } 
-    } 
+    public static void addBeginning(int n)
+    {
+        Node oldfirst = first;
+        first = new Node();
+        first.item = n;
+        first.next = oldfirst;
+        oldfirst.prev = first;
+        System.out.println("Element added");
+    }
 
-    /* Driver program to test above functions*/
-    public static void main(String[] args) 
-    { 
-        /* Start with the empty list */
-        DoublyLinkedList dll = new DoublyLinkedList(); 
+    public static void removeBeginning()
+    {
+        first = first.next;
+        first.prev = null;
+        System.out.println("Element removed");
+    }
 
-        // Insert 6. So linked list becomes 6->NULL 
-        dll.append(6); 
+    public static void addEnd(int n)
+    {
+        Node oldlast = last;
+        last = new Node();
+        last.item = n;
+        oldlast.next = last;
+        last.prev = oldlast;
+        System.out.println("Element added");
+    }
 
-        // Insert 7. So linked list becomes 6->7->NULL 
-        dll.append(7); 
+    public static void removeEnd()
+    {
+        Node x = first;
+        if(first == last)
+        {
+            first = null;
+        }
+        else
+        {
+            last.prev.next = null;
+            last = last.prev;
+        }
+        System.out.println("Element removed");
+    }
 
-        // Insert 1. So linked list becomes 6->7->1->NULL 
-        dll.append(1); 
+    public static void addIndex(int n, int index)
+    {
+        Node x = first;
+        Node back = new Node();
+        int count = 0;
+        while(count < index)
+        {
+            back = x;
+            x = x.next;
+            count ++;
+        }
+        Node add = new Node();
+        add.item = n;
+        add.next = x;
+        add.prev = back;
+        back.next = add;
+        x.prev = add;
+        System.out.println("Element added");
+    }
 
-        // Insert 4. So linked list becomes 6->7->1->4->NULL 
-        dll.append(4); 
+    public static void removeIndex(int index)
+    {
+        Node x = first;
+        Node back = new Node();
+        int count = 0;
+        while(count < index)
+        {
+            back = x;
+            x = x.next;
+            count ++;
+        }
+        back.next = x.next;
+        x.next.prev = back;
+        System.out.println("Element removed");
+    }
 
-        System.out.println("Created DLL is: "); 
-        dll.printlist(dll.head); 
-    } 
-} 
+    public static void reverse()
+    {
+        Node reverse = null;
+        while (first != null)
+        {
+            Node second = first.next;
+            first.next = reverse;
+            if(reverse != null)
+                reverse.prev = first;
+            reverse = first;
+            first = second;
+        }
+        first = reverse;
+    }
+}
+class Node
+{
+    int item;
+    Node next;
+    Node prev;
+}
