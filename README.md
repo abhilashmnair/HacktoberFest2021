@@ -22,25 +22,21 @@ Hacktoberfest is a month-long open source contribution program hosted by Digital
 
 ## <b>How to contribute?</b>
 Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/RULES.md) before creating a pull request
-- Star (would mean a lot!) and clone the repository. You can use the Github CLI or GitHub Desktop Client to clone the repo.
-- Add your file containing a useful code and create a pull request.
-- Wait for your pull-request to be verified by the maintainer and merged into the branch.
-
-Not a developer or programmer? Don't worry! Add useful documentation and fix grammatical errors in the `README` file. Every single contribution of yours will benefit your open source venture.<br>
 
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 <br>
+
 _If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
 _If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/)._
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
-
 **1.**  Fork [this](https://github.com/abhilashmnair/HacktoberFest2021.git) repository.
+
+<img align="center" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone  https://github.com/<your_name>/HacktoberFest2021.git
+git clone  https://github.com/abhilashmnair/HacktoberFest2021.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
@@ -93,6 +89,8 @@ git push -u origin <your_branch_name>
 ```
 
 **12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
+
+Not a developer or programmer? Don't worry! Add useful documentation and fix grammatical errors in the `README` file. Every single contribution of yours will benefit your open source venture.<br>
 
 ## <b>License</b>
 
