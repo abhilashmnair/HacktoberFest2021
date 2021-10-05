@@ -41,8 +41,7 @@ https://github.com/<YourUserName>/<repo name>
 ```
 git clone https://github.com/<YourUserName>/<repo name>
 ```
-- Once the repo is cloned, you need to do one thing:
-- Create a new branch by issuing the command:
+- Once the repo is cloned, you need to create a new branch by issuing the command:
 ```
 git checkout -b new_branch
 ```
@@ -50,7 +49,7 @@ git checkout -b new_branch
 ```
 git commit -S -m <Your Message in quotes>
 ```
-- and then:
+and then:
 ```
 git push -u origin new_branch
 ```
