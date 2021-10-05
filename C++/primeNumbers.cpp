@@ -1,39 +1,29 @@
-#include <iostream>
-#include<cmath>
+#include<iostream> 
+
 using namespace std;
 
 int main()
-{   
-	int i,j,n,ctr;
+{
+	int n,i,j;
+	cout << "enter no." << endl;
+	cin >> n;
+	cout << "Prime Numbers Between 1 and " << n << " are  " ;
 
-	cout<<"Enter Last Number : ";
-	cin>>n;
-	
-	cout <<"\nPrime Numbers between 1 and "<<n<<" are:\n\n";
-
-    for(i=2;i<=n; i++) 
-	{           
-        
-        ctr=0;                      
-        
-        for(j=2;j<i; j++)    
-		{                    
-            
-            if(i%j == 0)
+	for(i=2; i<n; i++)
+	{
+		for(j=2; j<i; j++)
+		{
+			if(i%j==0)
 			{
-				ctr++;              
+				cout << "" ;
 				break;
 			}
-                              
-        }
-
-        if(ctr==0)  
-		{
-		    cout<<i<<" ";        
-    	}
-    	
+		}
+			if(j==i)
+			{
+				cout << j << " " ;
+			}
 	}
-
-    return 0;
-
+	cout << endl;
+	return 0;
 }
