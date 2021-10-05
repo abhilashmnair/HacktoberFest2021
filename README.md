@@ -31,6 +31,33 @@ Not a developer or programmer? Don't worry! Add useful documentation and fix gra
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 <br>
 
+## <b>How to fork and create a PR?</b>
+- When you want to work on a GitHub project, the first step is to fork a repo.
+- First, you need to open the repo that you want to contribute to, and then simply click on `Fork` button in the top-right corner. This creates a new copy of that repo under your GitHub user account with a URL like:
+```
+https://github.com/<YourUserName>/<repo name>
+```
+- Next, clone the repo by opening the terminal on your computer and running the command:
+```
+git clone https://github.com/<YourUserName>/<repo name>
+```
+- Once the repo is cloned, you need to do one thing:
+- Create a new branch by issuing the command:
+```
+git checkout -b new_branch
+```
+- Now you can make changes to the code and once you're done with the changes, push it by first committing the changes using:
+```
+git commit -S -m <Your Message in quotes>
+```
+- and then:
+```
+git push -u origin new_branch
+```
+- Once you push the changes to your repo, the `Compare & pull request` button will appear in GitHub. Click it and then you'll be taken to a screen where you can open a pull request by clicking the `Create pull request` button. 
+- This allows the repo's maintainers to review your contribution. From here, they can merge it if it is good, or they may ask you to make some changes.
+<br>
+
 ## <b>License</b>
 
 This repository and the contained files are licensed under MIT License. See [LICENSE](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/LICENSE) for full text.
