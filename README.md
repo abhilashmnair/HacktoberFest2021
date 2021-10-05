@@ -26,10 +26,10 @@ Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/R
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 <br>
 
-_If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
+_If you're not comfortable with command line, [here are tutorials using GUI tools.](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)_
 _If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/)._
 
-**1.**  Fork [this](https://github.com/abhilashmnair/HacktoberFest2021.git) repository.
+**1.**  Fork the repository.
 
 <img align="center" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
