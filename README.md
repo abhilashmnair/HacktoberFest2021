@@ -28,6 +28,27 @@ Read [`RULES.md`](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/R
 
 Not a developer or programmer? Don't worry! Add useful documentation and fix grammatical errors in the `README` file. Every single contribution of yours will benefit your open source venture.<br>
 
+### <b>How to Fork</b>
+You will be able to find fork option on right top corner of repository page.<br>
+![Fork image](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/fork/01-click_fork.png)
+
+### <b>To clone</b>
+- Once you have forked, click button **Code**
+- Now copy the https address provided there
+- Open your git bash and type the comment<br>
+`git clone (copied url)`
+- Press enter
+
+
+### <b>How to create Pull Request</b>
+Once you have commited, you can open a pull request to be merged into actual repositry.<br>
+ - There will be a option **contribute**, 
+   from where you should select *open pull request*
+ - Now click on *create pull request*
+
+
+**Great you guys are doing great🥳**
+
 **PRs violating the rules will be closed and reported *Spam*! :x:**
 <br>
 
