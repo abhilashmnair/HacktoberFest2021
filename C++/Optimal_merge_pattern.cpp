@@ -69,7 +69,7 @@ void heapify(int *arr, int n , int i)
 
 void Print(int *arr, int n)
 {
-    cout<<">>> ";
+    cout<<">>>";
     for(int i=0; i<n; i++)
         cout<<setw(3)<<arr[i]<<" ";
     cout<<endl;
