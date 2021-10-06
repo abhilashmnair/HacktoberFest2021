@@ -1,0 +1,26 @@
+#include<iostream>
+
+int main()
+{
+  int year, t;
+
+  std::cin>>t;
+
+for(int i=1;i<=t;i++)
+{
+  std::cin>>year;
+
+  {
+
+ 	if( year%4==0 && year%100!=0 || year%400==0  )
+ 	{
+    	std::cout<<"Yes \n";
+  	}
+
+  	else
+  	{
+    	std::cout<<"No\n";
+  	}
+  }
+
+}
