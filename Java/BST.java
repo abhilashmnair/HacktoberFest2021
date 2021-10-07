@@ -5,9 +5,9 @@ public class BST
     public static void main(String[] args)throws IOException
     {
         int option,element;
-        String choise = "y";
+        String choice = "y";
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        while(choise.equals("y"))
+        while(choice.equals("y"))
         {
             System.out.println();
             System.out.println("MENU");
@@ -59,7 +59,7 @@ public class BST
             }
             System.out.println();
             System.out.println("Continue ? (y/n)");
-            choise = br.readLine();
+            choice = br.readLine();
         }
     }
 
