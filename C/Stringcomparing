@@ -1,0 +1,21 @@
+//this is the program to check whether the last and first char od string is same or nor 
+
+
+// Driver code
+#include<stdio.h>
+#include<string.h>
+int main()
+    {
+        char str[100];
+        gets(str);
+        int begin=0;
+        int end = strlen(str)-1;
+        
+        if (str[end] ==str[begin] )
+            printf("same");
+        else
+            printf("not same");
+    }
+     
+// This code is contributed by
+// Dattatray patil git : dattap647
