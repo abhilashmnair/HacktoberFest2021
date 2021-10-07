@@ -11,3 +11,6 @@ def non_repeat_substring(str):
     char_index_map[right_char] = window_end
     max_length = max(max_length, window_end - window_start + 1)
   return max_length
+
+str = "Hello"
+print("Maximum length of substring with no repeating character is {}".format(non_repeat_substring(str)))
