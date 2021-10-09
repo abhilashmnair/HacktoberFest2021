@@ -9,7 +9,7 @@ This repository is made for beginners who are unfamiliar with open source and Gi
 
 ## <b>What is Hacktober Fest?</b>
 
-Hacktoberfest is a month-long open source contribution program hosted by DigitalOcean in the month of October for supporting open source development. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Whether you are a pro in programming or a newbie, Hacktoberfest welcomes each one of the contributors for providing their valuable contribution to the open source community. Completing the challenge earns you a limited edition swags and other exiciting goodies.
+Hacktoberfest is a month-long open source contribution program hosted by DigitalOcean in the month of October for supporting open source development. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Whether you are a pro in programming or a newbie, Hacktoberfest welcomes each one of the contributors for providing their valuable contribution to the open source community. Completing the challenge will earn you some limited edition swags and other exiciting goodies.
 <br>
 
 ## <b>How to receive swags?</b>
@@ -94,7 +94,7 @@ Not a developer or programmer? Don't worry! Add useful documentation and fix gra
 
 ## <b>License</b>
 
-This repository and the contained files are licensed under MIT License. See [LICENSE](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/LICENSE) for full text.
+This repository along with the contained files are licensed under MIT License. See [LICENSE](https://github.com/abhilashmnair/HacktoberFest2021/blob/main/LICENSE) for full text.
 <br>
 
 ---
