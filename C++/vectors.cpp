@@ -11,7 +11,7 @@ int main()
     // Declaration of vector
 	vector<int> V;
 
-    // Taking input
+    // Taking input in vector
 	for (int i = 1; i <= 5; i++)
 		V.push_back(i);
 
